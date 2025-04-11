@@ -16,5 +16,5 @@ http://localhost:8000/docs
 docker compose exec app bash
 
 # 使用サービス
-ChatGPT API
-Google Spreadsheet
+* ChatGPT API
+* Google Spreadsheet
