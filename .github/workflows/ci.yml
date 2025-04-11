@@ -26,5 +26,8 @@ jobs:
         pip install pytest httpx pytest-mock
 
     - name: Run tests
+      env:
+        OPENAI_API_KEY: "test-dummy-key"
+        SPREADSHEET_ID: "test-dummy-id"
       run: |
         pytest
