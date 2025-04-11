@@ -1,0 +1,1 @@
+docker compose exec app pytest test_main.py
